@@ -1,8 +1,18 @@
+<%= image_tag "title.png", class: "image" %>
+<div class="container">
+  <%= image_tag "menu.png" %>
+  <%= image_tag "meals.png", class: "meals"%>
+  <%= image_tag "plus.png", class: "meals" %>
+  <%= image_tag "snacks.png", class: "meals" %>
 
-<% @meals.each do | meal | %>
-  <div class="card">
-    <h4><%= meal.name %></h4>
-    <p><%= meal.description %></p>
-    <p><%= number_to_currency(meal.price, unit: "R$", separator: ",", delimiter: ".") %></p>
-  </div>
-<% end %>
+</div>
+<%= image_tag "image.png", class: "image-food" %>
+<div class="container">
+  <%= image_tag "beer.png", class: "meals" %>
+  <%= image_tag "image_3.png", class: "meals" %>
+  <%= image_tag "drinks.png", class: "meals" %>
+  <%= image_tag "image_4.png", class: "meals" %>
+  <%= image_tag "drinks_2.png", class: "meals" %>
+  <%= image_tag "image_2.png", class: "meals" %>
+  <a href="https://www.instagram.com/frigideirademinas/" target="_blank"><i class="fab fa-instagram"></i></i></a>
+</div>
